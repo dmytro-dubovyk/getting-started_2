@@ -50,12 +50,17 @@ int main() {
         std::cout << "numbers[" << i << "] = " << numbers[i] << std::endl;
     }
 
-    std::array<int, 3> a = {10, 20, 30};
+    std::array<int, 4> a = {10, 20, 30, 40};
     std::cout << "printing a:" << std::endl;
     for (const auto& value : a) {
         std::cout << value << std::endl;
     }
     std::cout << "finished printing a" << std::endl;
+
+    std::cout << "Trying different access:" << std::endl;
+    std::cout << "a.front() = " << a.front() << std::endl;
+    std::cout << "a[1] = " << a[1] << std::endl;
+    std::cout << "a.at(2) = " << a.at(2) << std::endl;
 
     return 0;
 }

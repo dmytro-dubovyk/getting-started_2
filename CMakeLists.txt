@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(PROJECT_NAME "getting_started")
+set(PROJECT_NAME "getting_started_2")
 
 project(${PROJECT_NAME} VERSION 1.0.0 LANGUAGES CXX)
 
